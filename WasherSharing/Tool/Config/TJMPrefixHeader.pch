@@ -1,0 +1,92 @@
+//
+//  TJMPrefixHeader.pch
+//  Mould
+//
+//  Created by Jiaming Tu on 2017/8/17.
+//  Copyright © 2017年 fujianzhiyou. All rights reserved.
+//
+
+#ifndef TJMPrefixHeader_pch
+#define TJMPrefixHeader_pch
+#import <UIKit/UIKit.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#pragma  mark - 配置文件
+//单例宏
+#import "TJMSingleton.h"
+//导入Config
+#import "TJMConfig.h"
+//导入Api
+#import "TJMApi.h"
+//导入Constant
+#import "TJMConstant.h"
+//appkey 等
+#import "TJMAppKey.h"
+
+
+#pragma  mark - 第三方库
+//模型解析
+#import <MJExtension.h>
+//极光推送
+// 引入JPush功能所需头文件
+#import "JPUSHService.h"
+// iOS10注册APNs所需头文件
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
+// 如果需要使用idfa功能所需要引入的头文件（可选）
+//#import <AdSupport/AdSupport.h>
+
+//字体自适应
+#import "UIFont+runtime.h"
+//导航透明度
+#import "UINavigationController+Cloudox.h"
+#import "UIViewController+Cloudox.h"
+//侧滑返回
+#import <SwipeBack.h>
+//加密
+#import "NSString+MD5.h"
+//Alert
+#import "TDAlertView.h"
+//MJRefresh
+#import <MJRefresh.h>
+//MBPreogressHUD
+#import <MBProgressHUD.h>
+//SDWebImage
+#import <UIButton+WebCache.h>
+#import <SDWebImageManager.h>
+//微信API
+//#import <WXApi.h>
+
+#pragma  mark - appDelegate
+//appDelegate
+#import "AppDelegate.h"
+#import "AppDelegate+SDKSevice.h"
+#import "AppDelegate+APPService.h"
+
+
+#pragma  mark - 工具
+
+//文件管理
+#import "TJMSandBoxManager.h"
+
+//类目
+//正则判断
+#import "NSString+RegEx.h"
+#import "UINavigationBar+BackgroundColor.h"
+#import "NSObject+Config.h"
+#import "UIImage+QRCode.h"
+#import "UIImage+Scale.h"
+#import "NSString+Format.h"
+#import "UITextField+InputRule.h"
+//第三方分装
+//请求
+
+//提示框
+#import "TJMHUDHandle.h"
+
+
+
+
+#endif /* TJMPrefixHeader_pch */

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TJMLoginViewController.h
 //  WasherSharing
 //
 //  Created by Jiaming Tu on 2017/8/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TJMLoginViewController : UIViewController
 
 @end
-
