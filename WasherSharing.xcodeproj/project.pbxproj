@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99A6ADB21F4526B90042FFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADB11F4526B90042FFFF /* main.m */; };
+		99A6ADB51F4526B90042FFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADB41F4526B90042FFFF /* AppDelegate.m */; };
+		99A6ADB81F4526B90042FFFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADB71F4526B90042FFFF /* ViewController.m */; };
+		99A6ADBB1F4526B90042FFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A6ADB91F4526B90042FFFF /* Main.storyboard */; };
+		99A6ADBE1F4526B90042FFFF /* WasherSharing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADBC1F4526B90042FFFF /* WasherSharing.xcdatamodeld */; };
+		99A6ADC01F4526B90042FFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A6ADBF1F4526B90042FFFF /* Assets.xcassets */; };
+		99A6ADC31F4526B90042FFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A6ADC11F4526B90042FFFF /* LaunchScreen.storyboard */; };
+		99A6ADCE1F4526B90042FFFF /* WasherSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADCD1F4526B90042FFFF /* WasherSharingTests.m */; };
+		99A6ADD91F4526B90042FFFF /* WasherSharingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6ADD81F4526B90042FFFF /* WasherSharingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99A6ADCA1F4526B90042FFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A6ADA51F4526B90042FFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A6ADAC1F4526B90042FFFF;
+			remoteInfo = WasherSharing;
+		};
+		99A6ADD51F4526B90042FFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99A6ADA51F4526B90042FFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A6ADAC1F4526B90042FFFF;
+			remoteInfo = WasherSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99A6ADAD1F4526B90042FFFF /* WasherSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasherSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A6ADB11F4526B90042FFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99A6ADB31F4526B90042FFFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99A6ADB41F4526B90042FFFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99A6ADB61F4526B90042FFFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99A6ADB71F4526B90042FFFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99A6ADBA1F4526B90042FFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99A6ADBD1F4526B90042FFFF /* WasherSharing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WasherSharing.xcdatamodel; sourceTree = "<group>"; };
+		99A6ADBF1F4526B90042FFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A6ADC21F4526B90042FFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99A6ADC41F4526B90042FFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A6ADC91F4526B90042FFFF /* WasherSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasherSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A6ADCD1F4526B90042FFFF /* WasherSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasherSharingTests.m; sourceTree = "<group>"; };
+		99A6ADCF1F4526B90042FFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A6ADD41F4526B90042FFFF /* WasherSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasherSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A6ADD81F4526B90042FFFF /* WasherSharingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasherSharingUITests.m; sourceTree = "<group>"; };
+		99A6ADDA1F4526B90042FFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A6ADAA1F4526B90042FFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADC61F4526B90042FFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADD11F4526B90042FFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A6ADA41F4526B90042FFFF = {
+			isa = PBXGroup;
+			children = (
+				99A6ADAF1F4526B90042FFFF /* WasherSharing */,
+				99A6ADCC1F4526B90042FFFF /* WasherSharingTests */,
+				99A6ADD71F4526B90042FFFF /* WasherSharingUITests */,
+				99A6ADAE1F4526B90042FFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99A6ADAE1F4526B90042FFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A6ADAD1F4526B90042FFFF /* WasherSharing.app */,
+				99A6ADC91F4526B90042FFFF /* WasherSharingTests.xctest */,
+				99A6ADD41F4526B90042FFFF /* WasherSharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A6ADAF1F4526B90042FFFF /* WasherSharing */ = {
+			isa = PBXGroup;
+			children = (
+				99A6ADB31F4526B90042FFFF /* AppDelegate.h */,
+				99A6ADB41F4526B90042FFFF /* AppDelegate.m */,
+				99A6ADB61F4526B90042FFFF /* ViewController.h */,
+				99A6ADB71F4526B90042FFFF /* ViewController.m */,
+				99A6ADB91F4526B90042FFFF /* Main.storyboard */,
+				99A6ADBF1F4526B90042FFFF /* Assets.xcassets */,
+				99A6ADC11F4526B90042FFFF /* LaunchScreen.storyboard */,
+				99A6ADC41F4526B90042FFFF /* Info.plist */,
+				99A6ADBC1F4526B90042FFFF /* WasherSharing.xcdatamodeld */,
+				99A6ADB01F4526B90042FFFF /* Supporting Files */,
+			);
+			path = WasherSharing;
+			sourceTree = "<group>";
+		};
+		99A6ADB01F4526B90042FFFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A6ADB11F4526B90042FFFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A6ADCC1F4526B90042FFFF /* WasherSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				99A6ADCD1F4526B90042FFFF /* WasherSharingTests.m */,
+				99A6ADCF1F4526B90042FFFF /* Info.plist */,
+			);
+			path = WasherSharingTests;
+			sourceTree = "<group>";
+		};
+		99A6ADD71F4526B90042FFFF /* WasherSharingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99A6ADD81F4526B90042FFFF /* WasherSharingUITests.m */,
+				99A6ADDA1F4526B90042FFFF /* Info.plist */,
+			);
+			path = WasherSharingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A6ADAC1F4526B90042FFFF /* WasherSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A6ADDD1F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharing" */;
+			buildPhases = (
+				99A6ADA91F4526B90042FFFF /* Sources */,
+				99A6ADAA1F4526B90042FFFF /* Frameworks */,
+				99A6ADAB1F4526B90042FFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WasherSharing;
+			productName = WasherSharing;
+			productReference = 99A6ADAD1F4526B90042FFFF /* WasherSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99A6ADC81F4526B90042FFFF /* WasherSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A6ADE01F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharingTests" */;
+			buildPhases = (
+				99A6ADC51F4526B90042FFFF /* Sources */,
+				99A6ADC61F4526B90042FFFF /* Frameworks */,
+				99A6ADC71F4526B90042FFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A6ADCB1F4526B90042FFFF /* PBXTargetDependency */,
+			);
+			name = WasherSharingTests;
+			productName = WasherSharingTests;
+			productReference = 99A6ADC91F4526B90042FFFF /* WasherSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99A6ADD31F4526B90042FFFF /* WasherSharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A6ADE31F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharingUITests" */;
+			buildPhases = (
+				99A6ADD01F4526B90042FFFF /* Sources */,
+				99A6ADD11F4526B90042FFFF /* Frameworks */,
+				99A6ADD21F4526B90042FFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A6ADD61F4526B90042FFFF /* PBXTargetDependency */,
+			);
+			name = WasherSharingUITests;
+			productName = WasherSharingUITests;
+			productReference = 99A6ADD41F4526B90042FFFF /* WasherSharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99A6ADA51F4526B90042FFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fujianzhiyou;
+				TargetAttributes = {
+					99A6ADAC1F4526B90042FFFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					99A6ADC81F4526B90042FFFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99A6ADAC1F4526B90042FFFF;
+					};
+					99A6ADD31F4526B90042FFFF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99A6ADAC1F4526B90042FFFF;
+					};
+				};
+			};
+			buildConfigurationList = 99A6ADA81F4526B90042FFFF /* Build configuration list for PBXProject "WasherSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99A6ADA41F4526B90042FFFF;
+			productRefGroup = 99A6ADAE1F4526B90042FFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A6ADAC1F4526B90042FFFF /* WasherSharing */,
+				99A6ADC81F4526B90042FFFF /* WasherSharingTests */,
+				99A6ADD31F4526B90042FFFF /* WasherSharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99A6ADAB1F4526B90042FFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6ADC31F4526B90042FFFF /* LaunchScreen.storyboard in Resources */,
+				99A6ADC01F4526B90042FFFF /* Assets.xcassets in Resources */,
+				99A6ADBB1F4526B90042FFFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADC71F4526B90042FFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADD21F4526B90042FFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A6ADA91F4526B90042FFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6ADBE1F4526B90042FFFF /* WasherSharing.xcdatamodeld in Sources */,
+				99A6ADB81F4526B90042FFFF /* ViewController.m in Sources */,
+				99A6ADB51F4526B90042FFFF /* AppDelegate.m in Sources */,
+				99A6ADB21F4526B90042FFFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADC51F4526B90042FFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6ADCE1F4526B90042FFFF /* WasherSharingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A6ADD01F4526B90042FFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6ADD91F4526B90042FFFF /* WasherSharingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A6ADCB1F4526B90042FFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A6ADAC1F4526B90042FFFF /* WasherSharing */;
+			targetProxy = 99A6ADCA1F4526B90042FFFF /* PBXContainerItemProxy */;
+		};
+		99A6ADD61F4526B90042FFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A6ADAC1F4526B90042FFFF /* WasherSharing */;
+			targetProxy = 99A6ADD51F4526B90042FFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99A6ADB91F4526B90042FFFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A6ADBA1F4526B90042FFFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99A6ADC11F4526B90042FFFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99A6ADC21F4526B90042FFFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99A6ADDB1F4526B90042FFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A6ADDC1F4526B90042FFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99A6ADDE1F4526B90042FFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WasherSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99A6ADDF1F4526B90042FFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WasherSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99A6ADE11F4526B90042FFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WasherSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WasherSharing.app/WasherSharing";
+			};
+			name = Debug;
+		};
+		99A6ADE21F4526B90042FFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WasherSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WasherSharing.app/WasherSharing";
+			};
+			name = Release;
+		};
+		99A6ADE41F4526B90042FFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WasherSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WasherSharing;
+			};
+			name = Debug;
+		};
+		99A6ADE51F4526B90042FFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WasherSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujianzhiyou.WasherSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WasherSharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A6ADA81F4526B90042FFFF /* Build configuration list for PBXProject "WasherSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6ADDB1F4526B90042FFFF /* Debug */,
+				99A6ADDC1F4526B90042FFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A6ADDD1F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6ADDE1F4526B90042FFFF /* Debug */,
+				99A6ADDF1F4526B90042FFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99A6ADE01F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6ADE11F4526B90042FFFF /* Debug */,
+				99A6ADE21F4526B90042FFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99A6ADE31F4526B90042FFFF /* Build configuration list for PBXNativeTarget "WasherSharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6ADE41F4526B90042FFFF /* Debug */,
+				99A6ADE51F4526B90042FFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99A6ADBC1F4526B90042FFFF /* WasherSharing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99A6ADBD1F4526B90042FFFF /* WasherSharing.xcdatamodel */,
+			);
+			currentVersion = 99A6ADBD1F4526B90042FFFF /* WasherSharing.xcdatamodel */;
+			path = WasherSharing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99A6ADA51F4526B90042FFFF /* Project object */;
+}
